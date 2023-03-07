@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.btn-hero {
+  display: inline-block;
+  padding: 2.2rem 4rem;
+  background-color: #054c73;
+
+  font-weight: 600;
+  font-size: 1.6rem;
+  color: #fff;
+  letter-spacing: 1.2px;
+
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.btn-hero:link {
+  text-decoration: none;
+}
+
+.container {
+  padding: 6.2rem 12.8rem;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  justify-items: center;
+}
+
+.gridL {
+  display: grid;
+  justify-items: flex-start;
+  gap: 4rem;
+}
+
+.gridX {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.center {
+  align-items: center;
+}
+
+.grid-col-5 {
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.grid-col-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid-col-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-col-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.color2 {
+  background-color: #f2f5ff;
+}
+
+.color1 {
+  background-color: #03344f;
+}
